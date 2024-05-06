@@ -1,9 +1,11 @@
 #include <iostream>
 #include <stdexcept>
 #include <cstring>
+#include <concepts>
 #include "Vector.hpp"
 
-template <typename T>
+template <typename T> 
+requires std::integral<T> || std::floating_point<T>
 class matrix {
     private:
         int nrows;
