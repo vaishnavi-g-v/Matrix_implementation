@@ -1,0 +1,48 @@
+Start test: Init
+End test: Init PASS
+Start test: Move initialization
+Enter move constructor
+End test: Move initialization PASS
+Start test: Copy initialization
+Enter Copy constructor
+End test: Copy initialization PASS
+Start test: Copy assignment
+Enter Copy assignment
+End test: Copy assignment PASS
+Start test: Move assignment
+Enter move assignment
+End test: Move assignment PASS
+Start test: Operator ==
+Enter Copy constructor
+Enter Copy constructor
+End test: Operator == PASS
+Start test: Binary add operator m1 + m2
+Enter Copy constructor
+Enter move constructor
+End test: Binary add operator m1+m2 PASS
+Start test: Binary self add operator m1 += m2
+End test: Binary self add operator m1 += m2 PASS
+Start test: Binary Self minus operator m1 -= m2
+3	7	-1	-1	
+4	0	-5	-1	
+4	10	10	10	
+
+End test: Binary Self Minus operator m1 -= m2 PASS
+Start test: Binary Minus operator m1 - m2
+Enter Copy constructor
+Enter Copy constructor
+3	7	-1	-1	
+4	0	-5	-1	
+4	10	10	10	
+
+End test: Binary Minus operator m1 - m2 PASS
+Start test: transpose
+Enter Copy constructor
+Enter Copy constructor
+End test: transpose PASS
+Start test: Product
+285	133	
+543	277	
+887	469	
+
+End test: Product PASS
